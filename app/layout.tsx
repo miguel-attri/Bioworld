@@ -4,6 +4,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Pack Pilot – Packaging Matrix Automation Platform | Phase 1 Statement of Work',
   description: 'Statement of Work for Pack Pilot Phase 1 - Packaging Matrix Automation Platform',
+  icons: {
+    icon: '/favicon.png',
+  },
 }
 
 export default function RootLayout({
