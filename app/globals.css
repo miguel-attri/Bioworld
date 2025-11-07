@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border p-0 m-0;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-white text-black font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-20 md:py-24 px-6 md:px-12 lg:px-20;
+  }
+}
+
