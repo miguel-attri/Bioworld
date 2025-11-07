@@ -35,15 +35,15 @@ export default function Deliverables() {
   const acceptanceCriteria = [
     {
       number: '1',
-      description: '90%+ of generated matrices match expected customer formats',
+      description: 'Reduce packaging matrix issue rate from 60% to 40% of matrices requiring clarification',
     },
     {
       number: '2',
-      description: 'AST completes matrix creation in <15 minutes without manual lookups',
+      description: 'Reduce average issue resolution time from 72+ hours to <24 hours per packaging matrix issue',
     },
     {
       number: '3',
-      description: 'All templates load correctly across 5+ customer scenarios',
+      description: 'Reduce email volume from 30+ emails to <10 emails per packaging matrix issue thread',
     },
   ]
 
